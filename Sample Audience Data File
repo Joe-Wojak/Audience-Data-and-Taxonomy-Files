@@ -1,11 +1,11 @@
-Send audience data to Tapad as a set of JSON objects. For parameter definitions and data types, see the “JSON Format for Audience Data Files” section in the data flow PDF.
-
-Formatting note:
-Put each JSON object on its own, separate line.
-
-Sample data
 Your audience data file could look similar to the mock data below.
 
-{"device_id":"5f4b0df4-13aa-a262-e792-e331a8163fae","device_id_type":"THIRDPARTY","audience_ids":[{"audience_id":"1344768","advertiser_ids":[1234]}],"operation":{"updated_at":"2015-01-01T00:00:00Z","action":1}}
+**Formatting note:**
+Put each JSON object on its own, separate line.
 
-{"device_id":"c4f844be-b006-2fc1-3490-3fe2259db90a","device_id_type":"THIRDPARTY","audience_ids":[{"audience_id":"3478418","advertiser_ids":[]}],"operation":{"updated_at":"2015-01-01T00:00:00Z","action":1}}
+**Sample data**
+Your audience data file could look similar to the mock data below.
+
+```json {"device_id":"5f4b0df4-13aa-a262-e792-e331a8163fae","device_id_type":"THIRDPARTY","audience_ids":[{"audience_id":"1344768","advertiser_ids":[1234]}],"operation":{"updated_at":"2015-01-01T00:00:00Z","action":1}```}
+
+```json {"device_id":"c4f844be-b006-2fc1-3490-3fe2259db90a","device_id_type":"THIRDPARTY","audience_ids":[{"audience_id":"3478418","advertiser_ids":[]}],"operation":{"updated_at":"2015-01-01T00:00:00Z","action":1}}```
